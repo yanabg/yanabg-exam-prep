@@ -26,3 +26,5 @@ jobs:
     - run: npm ci
       name: Run the unit tests
     - run: npm run test:unit
+    - name: Display SoftUni username
+      run: echo "yanabg"
